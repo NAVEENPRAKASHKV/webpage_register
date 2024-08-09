@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;url(https://pngtree.com/freebackground/tropical-beach-with-blue-sky-and-white-clouds---perfect-for-your-travel-blog-or-website_15713686.html)
+    box-sizing: border-box;
+    
+    font-family: Arial, sans-serif;
+}
+
+.outer {
+    background-image:url("./ranger-4df6c1b6.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    background-color:rgba(136, 215, 228, 0.3);
+    padding: 10px;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.inbox {
+    margin: 5px;
+    font-size: 14px;
+    
+}
+
+.inbox label{
+    margin-bottom:5px ;
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+}
+
+.inbox input{
+    padding:0 10px ;
+    width: 100%;
+    height: 30px;
+    border:1px solid black;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.gender {
+    margin: 10px 10px;
+}
+.gender label{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+}
+.country {
+    margin: 10px 10px 20px 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.country select{
+    width: 30%;
+    
+}
+.btn {
+    background-color: rgba(74, 197, 74,.7);
+    cursor: pointer;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    color: white;
+}
